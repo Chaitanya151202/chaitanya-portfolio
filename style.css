@@ -120,6 +120,26 @@ p, li {
     border-left: 5px solid red;
 }
 
+.edu-card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: #111;
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 5px solid red;
+    margin-bottom: 20px;
+}
+
+.edu-logo {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    border-radius: 8px;
+    background: white;
+    padding: 5px;
+}
+
 /* Contact */
 .contact a {
     color: red;
